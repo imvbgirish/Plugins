@@ -1,5 +1,5 @@
 TEMPLATE = lib
-TARGET = cplugin
+TARGET = MyPlugin
 QT += qml quick
 CONFIG += plugin c++11
 
@@ -8,11 +8,11 @@ uri = com.mycompany.qmlcomponents
 
 # Input
 SOURCES += \
-        cplugin_plugin.cpp \
+        myplugin_plugin.cpp \
         myitem.cpp
 
 HEADERS += \
-        cplugin_plugin.h \
+        myplugin_plugin.h \
         myitem.h
 
 DISTFILES = qmldir

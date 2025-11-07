@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    engine.addImportPath("/home/girish-v-b/Pictures/Plugin/build/Desktop_Qt_6_9_0-Debug");
+    engine.addImportPath("/home/girish-v-b/Plugins/PluginCMakeShared/Plugin/build/Desktop_Qt_6_9_0-Debug");
 
     qDebug() << "QML import paths:" << engine.importPathList();
     const QUrl url(QStringLiteral("qrc:/MyApp/main.qml"));

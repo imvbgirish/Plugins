@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-    engine.addImportPath("/home/girish-v-b/Pictures/cplugin/build/Desktop_Qt_6_9_0-Debug");
+    engine.addImportPath("/home/girish-v-b/Plugins/Plugin_Pro/MyPlugin/build/Desktop_Qt_6_9_0-Debug");
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(
         &engine,

@@ -1,2 +1,2 @@
 module com.mycompany.qmlcomponents
-plugin cplugin
+plugin MyPlugin

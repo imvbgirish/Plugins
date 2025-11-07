@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
 
-# set(QML_IMPORT_PATH "/home/girish-v-b/Pictures/Plugin/build/Desktop_Qt_6_9_0-Debug" CACHE STRING "Extra QML import paths" FORCE)
+set(QML_IMPORT_PATH "/home/girish-v-b/Plugins/PluginCMakeShared/Plugin/build/Desktop_Qt_6_9_0-Debug" CACHE STRING "Extra QML import paths" FORCE)
 
 qt_add_executable(appMyApp
     main.cpp
