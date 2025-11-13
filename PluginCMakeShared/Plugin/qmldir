@@ -1,2 +1,2 @@
-module com.mycompany.qmlcomponents
+module Plugin
 plugin Plugin

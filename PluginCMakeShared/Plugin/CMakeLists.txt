@@ -8,11 +8,7 @@ set(QT_QML_OUTPUT_DIRECTORY  ${CMAKE_BINARY_DIR})
 
 find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
 
-qt_add_library(Plugin SHARED)   # This makes it usable by any app without linking it directly.
-
-# qt_add_library(Plugin STATIC)      A static QML plugin must be linked directly into the application executable that uses it.
-                                    # The QML engine can’t load .a files dynamically at runtime.
-
+qt_add_library(Plugin SHARED)
 qt_add_qml_module(Plugin
     URI Plugin
     VERSION 1.0
@@ -35,3 +31,7 @@ target_link_libraries(Plugin
 
 target_include_directories(Plugin PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
+# qt_add_library(Plugin SHARED)   # This makes it usable by any app without linking it directly.
+
+# qt_add_library(Plugin STATIC)      A static QML plugin must be linked directly into the application executable that uses it.
+                                    # The QML engine can’t load .a files dynamically at runtime.

@@ -1,6 +1,6 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
-import com.mycompany.qmlcomponents
+import com.mycompany.qmlcomponents 1.0
 
 Window {
     width: 640
