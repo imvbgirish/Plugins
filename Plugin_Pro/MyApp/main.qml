@@ -16,4 +16,17 @@ Window {
         name: "Girish"
         Component.onCompleted: display()
     }
+
+    Rectangle{
+        id: rec
+        height: 100
+        width: 100
+        color: "yellow"
+        anchors.centerIn: parent
+
+        MyItem{
+            name: "Me"
+            Component.onCompleted: display()
+        }
+    }
 }

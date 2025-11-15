@@ -1,0 +1,33 @@
+[
+    {
+        "AppName": "Camera",
+        "PluginUri": "com.mycompany.camera",
+        "QmlType": "Camera"
+    },
+    {
+        "AppName": "Chrome",
+        "PluginUri": "com.mycompany.chrome",
+        "QmlType": "Chrome"
+    },
+    {
+        "AppName": "Maps",
+        "PluginUri": "com.mycompany.maps",
+        "QmlType": "Maps"
+    },
+    {
+        "AppName": "Music",
+        "PluginUri": "com.mycompany.music",
+        "QmlType": "Music"
+    },
+    {
+        "AppName": "Settings",
+        "PluginUri": "com.mycompany.settings",
+        "QmlType": "Settings"
+    },
+    {
+        "AppName": "YouTube",
+        "PluginUri": "com.mycompany.youtube",
+        "QmlType": "Youtube"
+    }
+]
+
