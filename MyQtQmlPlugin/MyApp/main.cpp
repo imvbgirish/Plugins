@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-    engine.addImportPath("/home/girish-v-b/Plugins/MyQtQmlPlugin/MyRectangle/build/Desktop_Qt_6_9_0-Debug");
+    engine.addImportPath("/home/girish-v-b/Plugins/MyQtQmlPlugin/MyRectangle/bins");
     const QUrl url(QStringLiteral("qrc:/MyApp/main.qml"));
     QObject::connect(
         &engine,

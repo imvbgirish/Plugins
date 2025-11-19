@@ -29,4 +29,8 @@ Window {
             Component.onCompleted: display()
         }
     }
+
+    Girish{
+
+    }
 }

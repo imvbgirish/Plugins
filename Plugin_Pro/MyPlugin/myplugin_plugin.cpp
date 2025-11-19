@@ -8,4 +8,5 @@ void MyPluginPlugin::registerTypes(const char *uri)
 {
     // @uri com.mycompany.qmlcomponents
     qmlRegisterType<MyItem>(uri, 1, 0, "MyItem");
+    qmlRegisterType(QUrl("qrc:/MyQmlFile.qml"),uri,1,0,"Girish");
 }

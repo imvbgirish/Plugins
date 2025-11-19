@@ -4,7 +4,8 @@ Item {
     id: root
 
     Rectangle {
-        anchors.fill: root
+        height: 150
+        width: 200
         color: "green"
     }
 }

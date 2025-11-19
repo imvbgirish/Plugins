@@ -8,4 +8,5 @@ void MyRectanglePlugin::registerTypes(const char *uri)
 {
     // @uri MyPlugin
     qmlRegisterType<MyItem>(uri, 1, 0, "MyItem");
+    qmlRegisterType(QUrl("qrc:/MyItemControls.qml"),uri,1,0,"ItemControls");
 }

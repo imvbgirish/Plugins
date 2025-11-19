@@ -11,4 +11,8 @@ Window {
         id: itm
         Component.onCompleted: itm.display()
     }
+
+    ItemControls{
+
+    }
 }
