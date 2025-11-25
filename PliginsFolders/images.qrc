@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>phone.png</file>
+        <file>contacts.png</file>
+        <file>camera.png</file>
+        <file>whatsapp.png</file>
+        <file>instagram.png</file>
+    </qresource>
+</RCC>

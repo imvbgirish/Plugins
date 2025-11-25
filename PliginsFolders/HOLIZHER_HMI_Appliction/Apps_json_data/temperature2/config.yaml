@@ -1,0 +1,7 @@
+{
+"AppName": "Camera",
+"FileName": "qrc:/Camera.qml",
+"Icon": "qrc:/camera.png",
+"Plugin": "Camera.so",
+"category": "setup"
+}

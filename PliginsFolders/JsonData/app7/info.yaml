@@ -1,0 +1,7 @@
+{
+    "AppIcon": "qrc:/camera.png",
+    "AppName": "camera",
+    "MainFileQml": "main.qml",
+    "PluginName": "dummy_plugin",
+    "Category" : "Production"
+ }

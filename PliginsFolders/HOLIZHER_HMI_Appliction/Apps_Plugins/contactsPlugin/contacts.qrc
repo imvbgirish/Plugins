@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Contacts.qml</file>
+        <file>Images/high-temperature.png</file>
+    </qresource>
+</RCC>

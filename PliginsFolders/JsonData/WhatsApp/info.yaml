@@ -1,0 +1,7 @@
+{
+    "AppIcon": "qrc:/whatsapp.png",
+    "AppName": "WhatsApp",
+    "MainFileQml": "main.qml",
+    "PluginName": "dummy_plugin",
+     "Category" : "Maintenance"
+}

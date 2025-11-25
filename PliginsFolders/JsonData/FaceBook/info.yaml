@@ -1,0 +1,7 @@
+{
+    "AppIcon": "qrc:/contacts.png",
+    "AppName": "Contacts",
+    "MainFileQml": "main.qml",
+    "PluginName": "dummy_plugin",
+     "Category" : "Setup"
+}

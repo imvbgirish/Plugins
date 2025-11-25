@@ -1,0 +1,7 @@
+{
+    "AppIcon": "qrc:/instagram.png",
+    "AppName": "Instagram",
+    "MainFileQml": "main.qml",
+    "PluginName": "dummy_plugin",
+    "Category" : "Settings"
+}

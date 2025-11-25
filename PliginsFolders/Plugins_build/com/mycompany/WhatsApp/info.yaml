@@ -1,0 +1,7 @@
+{
+    "AppIcon": "qrc:/Images/whatsapp.png",
+    "AppName": "camera",
+    "MainFileQml": "main.qml",
+    "PluginName": "dummy_plugin",
+    "Category" : "Production"
+ }

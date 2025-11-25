@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Images/camera.png</file>
+        <file>Images/instagram.png</file>
+        <file>Images/phone.png</file>
+        <file>Images/whatsapp.png</file>
+    </qresource>
+</RCC>
